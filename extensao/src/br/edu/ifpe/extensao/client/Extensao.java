@@ -59,6 +59,7 @@ public class Extensao implements EntryPoint {
 		RootPanel.get().add(textoNumero2);
 		RootPanel.get().add(botaoresposta);
 
+		
 		botaoresposta.addClickHandler(new ClickHandler() {
 			@Override
 			public void onClick(ClickEvent event) {
