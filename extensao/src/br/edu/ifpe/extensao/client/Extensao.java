@@ -58,6 +58,7 @@ public class Extensao implements EntryPoint {
 		RootPanel.get().add(labelNumero2);
 		RootPanel.get().add(textoNumero2);
 		RootPanel.get().add(botaoresposta);
+
 		botaoresposta.addClickHandler(new ClickHandler() {
 			@Override
 			public void onClick(ClickEvent event) {
@@ -180,4 +181,5 @@ public class Extensao implements EntryPoint {
 		// nameField.addKeyUpHandler(handler);
 		// final do comentário
 	}
+
 }

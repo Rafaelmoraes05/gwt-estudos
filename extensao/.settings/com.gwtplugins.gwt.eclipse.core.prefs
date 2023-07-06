@@ -1,2 +1,8 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 gwtVersion_C\:\\Users\\User\\SDK\ GWT\\gwt-2.10.0=2.10.0
+=======
+filesCopiedToWebInfLib=gwt-servlet.jar
+gwtVersion_C\:\\Users\\User\\SDK\ GWT\\gwt-2.10.0=2.10.0
+gwtVersion_C\:\\Users\\almei\\github-repositorios\\gwt-estudos\\gwt-2.10.0=2.10.0
+>>>>>>> 57eba64898b47a924792f37a1a4080b1f8d35944
