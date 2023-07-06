@@ -11,8 +11,7 @@ import com.google.gwt.user.client.ui.TextBox;
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
-public class Extensao implements EntryPoint
-{
+public class Extensao implements EntryPoint {
 	// sugestão de exclusão destes atributos.
 	// /**
 	// * The message displayed to the user when the server cannot be reached or
@@ -41,9 +40,8 @@ public class Extensao implements EntryPoint
 	private Label labelNumero2 = new Label("Segundo Número");
 	private TextBox textoNumero2 = new TextBox();
 	private Button botaoresposta = new Button("Calcular");
-	
-	public void onModuleLoad()
-	{
+
+	public void onModuleLoad() {
 		// RootPanel.get().add(labelBoasVindas);
 		// RootPanel.get().add(caixaDeTexto);
 		// RootPanel.get().add(botaoOK);
@@ -60,10 +58,9 @@ public class Extensao implements EntryPoint
 		RootPanel.get().add(labelNumero2);
 		RootPanel.get().add(textoNumero2);
 		RootPanel.get().add(botaoresposta);
-		botaoresposta.addClickHandler(new ClickHandler()
-		{
-			@Override public void onClick(ClickEvent event)
-			{
+		botaoresposta.addClickHandler(new ClickHandler() {
+			@Override
+			public void onClick(ClickEvent event) {
 				double primeiro = Double.parseDouble(textoNumero1.getText());
 				double segundo = Double.parseDouble(textoNumero2.getText());
 				double media = (primeiro + segundo) / 2;
